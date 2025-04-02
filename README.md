@@ -28,7 +28,7 @@ Os dados são armazenados em **MySQL**, os modelos são versionados e salvos com
 │   └── models.py          # Treinamento, previsão, salvamento e exclusão de modelos
 │
 ├── models/                # Modelos .pkl salvos por ticker
-│   └── PETR4_model.pkl
+│   └── X_model.pkl
 │
 ├── main.py                # FastAPI com endpoints /prever, /treinar, /destreinar
 ├── dashboard.py           # Interface Streamlit para usuários finais
