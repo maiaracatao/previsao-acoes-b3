@@ -70,7 +70,7 @@ Crie um arquivo `.env` na raiz com o seguinte conteúdo:
 
 ```env
 DB_HOST=XXX.XXX.XXX.XXX
-DB_USER=b3user
+DB_USER=usuário
 DB_PASSWORD=sua_senha_aqui
 DB_NAME=b3_acoes
 ```
