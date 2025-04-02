@@ -1,0 +1,21 @@
+# API e Web
+fastapi
+uvicorn
+
+# Visualização
+streamlit
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Dados
+pandas
+yfinance
+
+# Banco de dados
+sqlalchemy
+mysql-connector-python
+
+# Utilitários
+python-dotenv
