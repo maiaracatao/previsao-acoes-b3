@@ -77,37 +77,6 @@ DB_NAME=b3_acoes
 
 ---
 
-## ▶️ Execução
-
-### 🧠 Iniciar a API (FastAPI)
-
-```bash
-uvicorn main:app --reload
-```
-
-Acesse a documentação interativa em: [http://localhost:8000/docs](http://localhost:8000/docs)
-
----
-
-### 📊 Iniciar o Dashboard (Streamlit)
-
-```bash
-streamlit run dashboard.py
-```
-
----
-
-## 🔗 Endpoints da API
-
-| Método | Rota                | Descrição                                      |
-|--------|---------------------|-----------------------------------------------|
-| GET    | `/`                 | Verifica se a API está online                 |
-| GET    | `/prever/{ticker}`  | Retorna a previsão de abertura para o ticker  |
-| GET    | `/treinar/{ticker}` | Treina e salva o melhor modelo para o ticker  |
-| GET    | `/destreinar/{ticker}` | Remove modelo e dados do ticker           |
-
----
-
 ## 🛢️ Estrutura do Banco de Dados (MySQL)
 
 ### 📄 `historico_acoes`
@@ -160,6 +129,37 @@ CREATE TABLE ticker_model (
 
 ---
 
+## ▶️ Execução
+
+### 🧠 Iniciar a API (FastAPI)
+
+```bash
+uvicorn main:app --reload
+```
+
+Acesse a documentação interativa em: [http://localhost:8000/docs](http://localhost:8000/docs)
+
+---
+
+### 📊 Iniciar o Dashboard (Streamlit)
+
+```bash
+streamlit run dashboard.py
+```
+
+---
+
+## 🔗 Endpoints da API
+
+| Método | Rota                | Descrição                                      |
+|--------|---------------------|-----------------------------------------------|
+| GET    | `/`                 | Verifica se a API está online                 |
+| GET    | `/prever/{ticker}`  | Retorna a previsão de abertura para o ticker  |
+| GET    | `/treinar/{ticker}` | Treina e salva o melhor modelo para o ticker  |
+| GET    | `/destreinar/{ticker}` | Remove modelo e dados do ticker           |
+
+---
+
 ## 📌 Exemplo de uso com `requests` em Python
 
 ```python
@@ -179,7 +179,7 @@ print(resp.json())
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autora
 
 **Maiara Catão**  
 📧 Contato: [LinkedIn](https://www.linkedin.com/in/maiara-lopes-cat%C3%A3o-24315471) ou via GitHub
